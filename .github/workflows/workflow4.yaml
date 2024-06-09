@@ -11,7 +11,6 @@ jobs:
     permissions: write-all
     steps:
     - uses: actions/checkout@v2
-    - run: ls -l
     # Build the HTML documentation
     - name: Doxygen Action
       uses: mattnotmitt/doxygen-action@v1.1.0
